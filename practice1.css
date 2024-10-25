@@ -1,0 +1,13 @@
+.wrapper{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+text-align: center;
+}
+#header{
+    color: green;
+    text-align: center;
+}
+#body{
+    text-align: center;
+}
