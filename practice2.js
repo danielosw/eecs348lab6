@@ -1,6 +1,11 @@
-
-function runcode(color){
-
-    document.getElementById("dummy").style.color = color;
-
+document.addEventListener("DOMContentLoaded",() => {
+    runcode()
+})
+function runcode(){
+    document.getElementById("submit").onclick = function(){
+    let redtext = document.getElementById("redtex").style.color;
+    let bluetext = document.getElementById("bluetext").style.color;
+    let greentext = document.getElementById("greentext").style.color;
+    document.getElementById("dummy").style.color = "rgb("+redtext+", "+greentext+", "+bluetext+");"
+    }
 }
