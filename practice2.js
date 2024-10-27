@@ -3,9 +3,16 @@ document.addEventListener("DOMContentLoaded",() => {
 })
 function runcode(){
     document.getElementById("submit").onclick = function(){
-    let redtext = document.getElementById("redtext").value;
-    let bluetext = document.getElementById("bluetext").value;
-    let greentext = document.getElementById("greentext").value;
-    document.getElementById("dummy").style.color = "rgb("+redtext+", "+greentext+", "+bluetext+");"
+    let redboarder = document.getElementById("redboarder").value;
+    let blueboarder = document.getElementById("blueboarder").value;
+    let greenboarder = document.getElementById("greenboarder").value;
+    let redbg = document.getElementById("redbg").value;
+    let bluebg = document.getElementById("bluebg").value;
+    let greenbg = document.getElementById("greenbg").value;
+    let borderwidth = document.getElementById("borderwidth").value;
+    let tag = document.getElementById("dummy");
+    tag.style.borderColor = `rgb(${redboarder},${blueboarder},${greenboarder})`;
+    tag.style.backgroundColor = `rgb(${redbg},${bluebg},${greenbg})`;
+    tag.style.borderWidth = borderwidth;
     }
 }
