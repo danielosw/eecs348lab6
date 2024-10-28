@@ -1,4 +1,8 @@
-
+<style>
+table{
+border: 2rem;
+}
+</style>
 <?php 
 $size = $_POST["size"];
 echo "<table>";
