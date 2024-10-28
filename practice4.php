@@ -6,10 +6,7 @@
 </head>
 
 <body id="body">
-<form action="practice4.php" method="post">
-<input name="size" type="text">enter number</input><br>
-<input type="submit">
-</form>
+<?php $size?>
 </body>
 </div>
 </html>
