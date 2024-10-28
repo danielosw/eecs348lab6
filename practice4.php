@@ -2,9 +2,9 @@
 <?php 
 $size = $_POST["size"];
 echo "<table>";
-    for ($i=0; $i < $size; $i++) { 
+    for ($i=1; $i < $size+1; $i++) { 
 	echo "<tr>";
-	for ($g=0; $g < $size; $g++) { 
+	for ($g=1; $g < $size+1; $g++) { 
 	    $temp = $g*$i;
 	    echo "<td>$temp</td>";
 	}
